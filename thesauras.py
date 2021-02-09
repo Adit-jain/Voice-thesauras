@@ -54,7 +54,7 @@ if not translate(word):
 
 
         ##voice for similar texts
-        similar_word_text =  "\nDo you mean {} instead? ".format(d)
+        similar_word_text =  "\nDo you mean {} instead? ".format(i)
         voice_obj_3 = gTTS(similar_word_text)
         voice_obj_3.save("English thesauras\Conf_{}.mp3".format(d))
         ###play mp3 file
