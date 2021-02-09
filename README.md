@@ -4,6 +4,8 @@ A voice dictionary which can be used to find meaning of any given word. The prog
 Steps:-
 
 pip install gtts
+
+
 pip install playsound
 
 
